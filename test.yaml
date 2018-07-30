@@ -1,0 +1,14 @@
+credentials:
+    sshuser: username
+    sshpass: password
+    fireboxip: ip
+    sshport: port
+
+task_arguments:
+    function: addSSLVPNUserRoute
+    debug_mode: False
+    net_or_ips:
+       - 1.1.1.1/32
+       - 2.2.2.2/32
+
+    
